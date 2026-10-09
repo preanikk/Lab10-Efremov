@@ -28,12 +28,12 @@
 // Console.WriteLine(count);
 
 
-// int[] points = { 10, 20, 15 };
+int[] points = { 10, 20, 15 };
 
-// for ()
-// {
-//     point = point + 5;
-// }
+for (int i = 0; i < points.Length; i++)
+{
+    Console.WriteLine(points[i] + 5);
+}
 
 
 // string[] students = { "Аня", "Борис", "Вика" };
@@ -93,10 +93,10 @@
 // Console.WriteLine(count);
 
 
-// Вариант 8
-string word = "pomidor";
+// // Вариант 8
+// string word = "pomidor";
 
-for (int i = word.Length - 1; i >= 0; i--)
-{
-    Console.WriteLine(word[i]);
-}
+// for (int i = word.Length - 1; i >= 0; i--)
+// {
+//     Console.WriteLine(word[i]);
+// }
